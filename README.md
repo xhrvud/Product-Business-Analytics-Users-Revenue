@@ -119,23 +119,23 @@ This anomaly was verified at the raw data level and **intentionally preserved** 
 ---
 
 ## 📂 Repository Structure
+
+```
+.
 ├── README.md
-├── sql/
-│ ├── 01_schema.sql -- table schema
-│ ├── 02_indexes.sql -- performance indexes
-│ ├── 03_sanity_checks.sql -- data validation queries
-│ ├── 04_core_metrics.sql -- DAU, revenue, ARPU
-│ ├── 05_funnel_analysis.sql -- conversion funnel
-│ └── 06_views.sql -- analytical views
-│
-├── dashboards/
-│ └── screenshots/
-│ └── tableau_dashboard.png
-│
-└── notes/
-└── assumptions.md
-
-
+├── sql
+│   ├── 01_schema.sql
+│   ├── 02_indexes.sql
+│   ├── 03_sanity_checks.sql
+│   ├── 04_core_metrics.sql
+│   ├── 05_funnel_analysis.sql
+│   └── 06_views.sql
+├── dashboards
+│   └── screenshots
+│       └── tableau_dashboard.png
+└── notes
+    └── assumptions.md
+```
 ---
 
 ## 📊 Dashboard
